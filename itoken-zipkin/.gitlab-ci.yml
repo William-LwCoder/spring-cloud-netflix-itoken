@@ -8,14 +8,14 @@ build:
   stage: build
   script:
     - /usr/local/maven/apache-maven-3.5.3/bin/mvn clean package
-    - cp target/itoken-eureka-1.0.0-SNAPSHOT.jar docker
+    - cp target/itoken-zipkin-1.0.0-SNAPSHOT.jar docker
     - cd docker
-    - docker build -t 192.168.75.128:5000/itoken-eureka .
+    - docker build -t 192.168.75.128:5000/itoken-zipkin .
 
 push:
   stage: push
   script:
-    - docker push 192.168.75.128:5000/itoken-eureka
+    - docker push 192.168.75.128:5000/itoken-zipkin
 
 run:
   stage: run

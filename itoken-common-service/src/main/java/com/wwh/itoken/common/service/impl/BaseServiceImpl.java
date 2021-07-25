@@ -1,7 +1,6 @@
 package com.wwh.itoken.common.service.impl;
 
 import com.wwh.itoken.common.domain.BaseDomain;
-import com.wwh.itoken.common.domain.TbPostsPost;
 import com.wwh.itoken.common.service.BaseService;
 import com.github.pagehelper.PageHelper;
 import com.github.pagehelper.PageInfo;
@@ -9,7 +8,6 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 import tk.mybatis.mapper.MyMapper;
-import tk.mybatis.mapper.entity.Example;
 
 import java.util.Date;
 

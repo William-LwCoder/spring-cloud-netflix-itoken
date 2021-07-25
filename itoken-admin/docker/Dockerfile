@@ -1,5 +1,5 @@
 FROM openjdk:8-jre
-MAINTAINER Wiiliam <https://github.com/William-LwCoder>
+MAINTAINER William <https://github.com/William-LwCoder>
 
 ENV DOCKERIZE_VERSION v0.6.1
 RUN wget http://192.168.75.128:81/upload/dockerize-linux-amd64-$DOCKERIZE_VERSION.tar.gz \
