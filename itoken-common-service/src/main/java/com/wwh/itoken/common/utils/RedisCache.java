@@ -17,9 +17,9 @@ import java.util.concurrent.locks.ReentrantReadWriteLock;
  * <p>Title: RedisCache</p>
  * <p>Description: </p>
  *
- * @author Lusifer
+ * @author William
  * @version 1.0.0
- * @date 2018/8/13 6:03
+ * @date 2021/6/13 6:03
  */
 public class RedisCache implements Cache {
     private static final Logger logger = LoggerFactory.getLogger(RedisCache.class);
